@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"  android:layout_width="match_parent"
+    android:layout_height="match_parent"  tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/edTen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/txtTen"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/txtTen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/edTen"
+        android:layout_alignBottom="@+id/edTen"
+        android:layout_alignParentLeft="true"
+        android:background="#deb887"
+        android:text="Nhập tên:" />
+
+    <Button
+        android:id="@+id/btnNhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edTen"
+        android:layout_alignRight="@+id/edTen"
+        android:layout_toRightOf="@+id/txtTen"
+        android:text="Nhập"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/txtselection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnNhap"
+        android:layout_alignParentLeft="true"
+        android:background="#007380" />
+
+    <ListView
+        android:id="@+id/lvperson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtselection"
+        android:layout_alignParentLeft="true"
+        android:background="#cccccc"
+        android:listSelector="@android:color/holo_blue_bright" >
+    </ListView>
+</RelativeLayout>
