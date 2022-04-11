@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/LaptrinhAndroid/main_project/BaiKT2/app/src/main/res/layout/activity_calculate.xml" value="0.75" />
         <entry key="..\:/LaptrinhAndroid/main_project/BaiKT2/app/src/main/res/layout/activity_main.xml" value="0.67" />
+        <entry key="..\:/LaptrinhAndroid/main_project/BaiKT2/app/src/main/res/layout/activity_tip_calculator.xml" value="0.75" />
       </map>
     </option>
   </component>
