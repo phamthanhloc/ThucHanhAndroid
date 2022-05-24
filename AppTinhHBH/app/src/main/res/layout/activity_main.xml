@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EC4B18"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvcA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cạnh A:"
+            android:textAlignment="center"
+            android:textColor="#FDFCFC"
+            android:textSize="26dp" />
+
+        <EditText
+            android:id="@+id/edcA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvcB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cạnh B:"
+            android:textAlignment="center"
+            android:textColor="#FDFCFC"
+            android:textSize="26dp" />
+
+        <EditText
+            android:id="@+id/edcB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvcH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cạnh H:"
+            android:textAlignment="center"
+            android:textColor="#FDFCFC"
+            android:textSize="26dp" />
+
+        <EditText
+            android:id="@+id/edcH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnNhan"
+            android:textSize="22dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#4CAF50"
+            android:onClick="TinhCV"
+            android:text="ChuVi" />
+
+        <Button
+            android:id="@+id/btnChia"
+            android:textSize="22dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#4CAF50"
+            android:onClick="TinhDT"
+            android:text="DienTich" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvKQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kết quả:" />
+
+</LinearLayout>
